@@ -5,7 +5,5 @@ collection: publications
 excerpt: '__Tyler Kastner__, Murat Erdogdu, Amir-massoud Farahmand'
 date: 2023-07-04
 venue: 'NeurIPS'
-paperurl: 'https://arxiv.org/pdf/2307.01708.pdf'
+paperurl: 'https://openreview.net/forum?id=SLTQluG80x'
 ---
-
-[View paper here](https://arxiv.org/pdf/2307.01708.pdf)
