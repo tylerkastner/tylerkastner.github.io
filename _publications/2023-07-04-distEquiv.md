@@ -4,7 +4,7 @@ collection: publications
 # permalink: /publication/2021-neurips
 excerpt: '__Tyler Kastner__, Murat Erdogdu, Amir-massoud Farahmand'
 date: 2023-07-04
-venue: 'NeurIPS 2023'
+venue: 'NeurIPS'
 paperurl: 'https://arxiv.org/pdf/2307.01708.pdf'
 ---
 
