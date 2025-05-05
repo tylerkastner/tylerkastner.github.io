@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-An up to date list can be found on my <a href="https://scholar.google.com/citations?user=EwvaTJQAAAAJ&hl=en">Google Scholar profile</a>.
+An up to date list can be found on <a href="https://scholar.google.com/citations?user=EwvaTJQAAAAJ&hl=en">Google Scholar</a>.
 
 {% include base_path %}
 

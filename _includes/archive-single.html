@@ -1,5 +1,51 @@
 {% include base_path %}
 
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign date = post.date | default: "1900-01-01" %}
+{% assign year = date | date: "%Y" %}
+
+<div class="publication__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+    <h2 class="archive__item-title" itemprop="name">
+      {{ title }}
+    </h2>
+
+    {% if post.authors %}
+      <p class="archive__item-authors">
+        {{ post.authors }}
+      </p>
+    {% endif %}
+
+    {% if post.venue %}
+      <p class="archive__item-venue">
+        <i>{{ post.venue }}</i>, {{ year }}
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+
+    {% if post.paperurl %}
+      <p class="archive__item-links">
+        <a href="{{ post.paperurl | strip }}" target="_blank" rel="noopener">[PDF]</a>
+      </p>
+    {% endif %}
+
+    {% if post.citation %}
+      <details>
+        <summary>Recommended citation</summary>
+        <p class="archive__item-citation">{{ post.citation }}</p>
+      </details>
+    {% endif %}
+
+  </article>
+</div>
+
+
+<!-- {% include base_path %}
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -63,3 +109,4 @@
 
   </article>
 </div>
+ -->
