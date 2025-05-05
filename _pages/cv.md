@@ -9,11 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF of my CV can be found [here](http://tylerkastner.github.io/files/TylerKastnerResumeMay2025.pdf).
+
 Education
 ======
+* Ph.D. in Computer Science, University of Toronto, 2026 (expected).
+* MSc. in Computer Science, McGill University, 2022.
 * B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
