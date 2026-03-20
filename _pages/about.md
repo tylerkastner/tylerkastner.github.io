@@ -10,6 +10,4 @@ redirect_from:
 
 I am a PhD student at the University of Toronto, studying under [Amir-massoud Farahmand](http://academic.sologen.net/) and [Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/). My research is focused on reinforcement learning, where I am interested in both fundamental questions and applications.
 
-This past Fall, I was a Research Scientist Intern at Meta. This upcoming Summer, I will be Quantitative Researcher Intern at G-Research.
-
-Previously, I completed my MSc and BSc at McGill University, where I was supervised by [Prakash Panangaden](https://www.cs.mcgill.ca/~prakash/) and supported by a [DeepMind fellowship](https://www.deepmind.com/scholarships).
+This past Fall, I was a Research Scientist Intern at Meta. Previously, I completed my MSc and BSc at McGill University, where I was supervised by [Prakash Panangaden](https://www.cs.mcgill.ca/~prakash/) and supported by a [DeepMind fellowship](https://www.deepmind.com/scholarships).
